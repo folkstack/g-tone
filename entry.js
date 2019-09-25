@@ -64,7 +64,7 @@ midi.getPortNames(function(e,d){
 
 var time = 0
 on(ui.sine, 'touchdown', e => {
-  window.open('http://' + window.location.host + '/keyboard.html')
+  window.open('http://' + window.location.host + window.location.pathname + 'keyboard.html')
   let state = controls(ui.para).state
   master.resume()
   var gen = $.chrono()

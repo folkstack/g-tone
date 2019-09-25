@@ -1,0 +1,84 @@
+.main{
+  width: 100%;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+}
+.main > .col {
+  min-width: 120px;
+}
+
+#gparams{
+  background: hotpink;
+  flex: 0 0 8%;
+}
+#workspace{
+  background: forestgreen;
+  display:flex; 
+  flex: 0 2 84%;
+  flex-direction: column;
+}
+#fxmod{
+  flex: 0 0 8%;
+  background: hotpink;
+
+}
+
+
+#master, #modchain{
+  height:100px;
+  background: yellow;
+  flex: 0 0 10%;
+  display:flex;
+  flex-direction: row;
+}
+#modchain{
+  background:forestgreen;
+}
+#controls{
+  background: forestgreen;
+  flex:0 0 80%;
+}
+
+#para{
+  background: black;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  
+}
+
+#fxmod > div {
+}
+#fxmod > .col{
+}
+
+.col .ico{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.icon{
+  font-size: 54px;
+  line-height: 50%;
+}
+#envelopes .icon, #feedback .icon{
+  font-size:45px;
+}
+.ital{
+  font-style: italic;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>sans titre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <div class=main id=console>
+      <div class=col id=gparams>
+        <div class=ico id=sine><span class=icon>&#8767</span></div>
+        <div class=ico id=phase><span class=icon>&#8736</span></div>
+        <div class=ico id=ratio><span class=icon>&#8758</span></div>
+        <div class=ico id=mean><span class="icon ital">&#181</span></div>
+        <div class=ico id=deviation><span class="icon ital">&#0963</span></div>
+        <div class=ico id=iter><span class="icon ital">i</span></div>
+        <div class=ico id=manual><span class=icon>¿?</span></div>
+      </div>
+      <div class=colcenter id=workspace>
+        <div class=row id=modchain></div>
+        <div class=center id=controls>
+          <div class=view id=para>
+            <div class=iocontrols id=io>
+              <div class=avoptions id=avopts>
+                <div class=select>
+                  <p>select audio source:</p>
+                  <div id="audioinput">
+                  </div>
+                </div>
+                <div class=select>
+                  <p>select audio monitor:</p>
+                  <div id="audiooutput">
+                  </div>
+                </div>
+              </div>
+              <div class="controls midioptions" id=midi>
+                <p>select midi inputs<p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=row id=master></div>
+      </div>
+      <div class=col id=fxmod>
+        <div class=col id=envelopes>
+          <div class=ico id=enva><span class=icon>&#128200</span></div>
+          <div class=ico id=envd><span class=icon>&#128201</span></div>
+          <div class=ico id=envs><span class=icon>&#10716</span></div>
+          <div class=ico id=envadd><span class=icon>+</span></div>
+        </div>
+        <div class=col id=filters>
+          <div class=ico id=iir><span class="icon">&#10717</span></div>
+          <div class=ico id=winfunk><span class="icon">&#8889</span></div>
+        </div>
+        <div class=col id=feedback>
+          <div class=ico id=delayadd><span class="icon">&#127754</span></div>
+        </div>
+        <div class=col>
+          <div class=ico id=settings><span class=icon>&#9881</span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+    <script type="text/javascript" src="bundle.js"></script>
+</html>

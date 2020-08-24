@@ -1,8 +1,19 @@
+:root {
+  --ratio: 16 / 9;
+  --height: 100vmin;
+  --width: calc(var(--width) * var(--ratio));
+}
+
+*{
+  user-select:none
+}
 .main{
-  width: 100%;
-  height:100%;
+  width: var(--width);
+  height: var(--height);
   display:flex;
   flex-direction: row;
+  box-sizing:border-box;
+  overflow-x:hidden;
 }
 .main > .col {
   min-width: 120px;
@@ -11,17 +22,19 @@
 #gparams{
   background: hotpink;
   flex: 0 0 8%;
+  display:none;
 }
 #workspace{
-  background: forestgreen;
+  background: black;
   display:flex; 
-  flex: 0 2 84%;
+  flex: 0 2 100%;
   flex-direction: column;
 }
 #fxmod{
   flex: 0 0 8%;
   background: hotpink;
 
+  display:none;
 }
 
 
@@ -37,11 +50,11 @@
 }
 #controls{
   background: forestgreen;
-  flex:0 0 80%;
+  flex:0 0 100%;
 }
 
 #para{
-  background: black;
+  background: hsla(240, 20%, 20%, 1);
   height: 100%;
   width:100%;
   display: flex;
@@ -81,4 +94,17 @@
 }
 .ital{
   font-style: italic;
+}
+.iocontrols {
+  height:22vmin;
+  width:22vmin;
+  padding:11px;
+}
+.iocontrols label{
+  font-size:14px;
+  margin: 0 0 0 1em;
+} 
+
+.iocontrols p {
+  
 }

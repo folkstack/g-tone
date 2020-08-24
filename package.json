@@ -1,0 +1,30 @@
+{
+  "name": "gtone",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassify": "csass",
+    "prefix": "css-prefix",
+    "bundle": "browserify entry.js -t jsminifier | gzip >  dist/bundle.js ",
+    "watch-yo-sass, bitch": "watch-sass sassfile.scss > dist/style.css",
+    "watch-bundle": "watchify -e entry.js -o dist/bundle.js",
+    "dist": "cat sassfile.scss | npm run sassify | npm run prefix > /dist/style.css  && npm run bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "license not granted",
+  "dependencies": {
+    "brfs": "^2.0.1",
+    "dom-event": "^1.0.0",
+    "getids": "^0.2.0",
+    "hyperscript": "^2.0.2",
+    "insert-css": "^2.0.0",
+    "page-bus": "^3.0.1",
+    "store": "^2.0.12",
+    "teoria": "^2.5.0",
+    "web-midi": "^2.1.0",
+    "window-function": "^2.1.0"
+  },
+  "devDependencies": {}
+}

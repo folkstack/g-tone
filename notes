@@ -1,0 +1,28 @@
+need the amod visual
+
+the second function of the sustain envelope chain re-inserts the same function into "ons"
+possible the second function of the Attack/Decay chain inserts removes itself and inserts the sustain
+good night!
+
+
+sustain is amod
+release is feedback
+also volume on RELEASE
+
+reverbs is a fn of a multiple / ratio of the wavelength
+feedback is a fn of a max of half the wavelength
+
+shuffle feedbacks for rapid keypress
+must share all feed backs between two parts duh
+
+the release is a good target for GPU
+
+env needs easing options
+
+iir is master lebel
+
+if release before A+D change on fn to complete envelope series and drop
+
+set a phase change bit if release changed the phase
+
+reverse midi controls + live stream = let them try it live

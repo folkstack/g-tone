@@ -1,0 +1,98 @@
+.gdialmode, .module{
+  border-radius: 50%;
+  width: 12vmax;
+  height:12vmax;
+  background:transparent;
+}
+.graphmode{
+  border:6px solid hsla(240, 60%, 60%, 1);
+  box-sizing:content-box;
+}
+
+
+.gdialmode{
+  margin:12px;
+}
+.module > div {
+  margin: 11px;
+}
+
+.dial{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  background:transparent;
+  border-radius: 50%;
+  border: 7px solid pink;
+  border-top: 7px solid deeppink;
+  box-shadow: inset 0px 0px 7px hotpink, 0px 0px 6px black;
+  z-index:1;
+  transform: rotateZ(0deg);
+  box-sizing:border-box;
+}
+.gdialvalue{
+  width: 12vmax;
+  height:12vmax;
+  position:absolute;
+  background: black;
+  z-index:0;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  border-radius: 50%;
+}
+.dialname, .dialval{
+  width: 12vmax;
+  height: 4vmax;
+  color:pink;
+}
+.dialname{
+  height:4vmax;
+}
+.dialval p{
+}
+.dialname p, .dialval p{
+  width:100%;
+  text-align:center;
+  font-size:3vmax;
+  line-height: 3.5vmax;
+  margin:0;
+  padding:0;
+}
+.dialname p{
+  font-size:3.67vmax;
+  line-height:4.2vmax;
+}
+.amod, .env, .eezy, .bezier, .adsr{
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 400px;
+  width: 32vmax;
+  height:20vmax;
+  box-sizing: border-box;
+}
+
+.handle{
+  margin: 0;
+  padding: 0;
+  opacity:.9;
+}
+
+.xy{
+  width: 200px;
+  height:200px;
+  border: 3px solid blue
+}
+
+.amod canvas{
+  margin: 0;
+  padding: 0;
+  border: 9px solid rgba(128,128,128,.5);
+}
+
+.iocontrols{
+  background:white;
+}

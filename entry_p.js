@@ -21,7 +21,6 @@ var wf = require('window-function')
 var wfn = Object.keys(wf)
 wf.none = $.winfunk.none
 wfn.unshift('none')
-  console.log(wfn)
 
 var waves = ['sine', 'saw', 'tri', 'sq']
 var winfunk = ['none', 'hann', 'hamming', 'tri', 'planckt', 'welch']
@@ -68,7 +67,6 @@ function n(f1, f2, d1, d2){
     return alt[e](t - (d1 * e))
   }
 }
-console.log($)
 let delay = require('../delay')
 for(el in ui) td.start(ui[el])
 var ons = new Array(175).fill(zero)
@@ -106,7 +104,6 @@ midi.getPortNames(function(e,d){
 function init(){
   state = controls(ui.para, update).state
   function update (name, value, state) {
-    console.log(name, value)
     if(name.slice(0,3) == 'iir'){
       //need to debounce and not wreck frame
       //iirn = iirn.map(e => $.iir(state.iir1, state.iir2, state.feedback))
@@ -237,7 +234,7 @@ function release(time, fq, d){
     let sdur = dur - state.adur - state.ddur
     let wvl = master.sampleRate / fq
     let ph = ((dur * master.sampleRate) % wvl) / wvl
-    ph += phs[d[1]]
+    ph += phs[d[1]] 
     var mm = Math.pow(Math.sqrt(Math.max(lf, lf*((100/lf)*state.alfo))),lf)
     var am = Math.pow(Math.sqrt(Math.max(lf, lf*((100/lf)*state.rlfo))),lf)
     let mvl = sr / mm

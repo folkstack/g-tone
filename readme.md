@@ -2,23 +2,23 @@
 
 This is a pure algorithmically generated synthesis—no samples, and no webAudio components. The sound is 100% produced by hot javascript. The app works in the Chrome/Chromium browsers, internet connection not required.  Audio is 64bit HiFi Mono.
 
-G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. The distance of the overtones along the deviation is also mod parameter (eg. the default is whole number deviations).  
+G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. 
 
 ## Features
 
 The following parameters can be modulated on the interface:
-* Wave Type (sine, saw, triangle, square)
-* Overtone Ratio
-* Overtone Deviation 
-* Overtone Mean Oscillation
-* The Overtone Mean LFO (see below)
-* The Number of overtones per note (aka polyphonics per voice)
-* Amplitude "warble"
-* The Amplitude warble LFO (see below)
-* Wavelength dependent feedback value
-* Window Filter Function (see below)
+* Wave Type (sine, saw, triangle, square)—Default Sine, 0 index of array
+* Overtone Ratio—Default 12 semitones or 1 octave
+* Overtone Deviation—Default 2 (arbitrary)
+* Overtone Mean Oscillation—Default 0 (try 1.61)
+* The Overtone Mean LFO—Default 0 (see below)
+* The Number of overtones per note (polyphonics per voice)—Default 3
+* Amplitude "warble"—Default 0
+* The Amplitude warble LFO—Default 0 (see below)
+* Wavelength dependent feedback value—Default Arbitrary
+* Window Filter Function—Default None, 0 index of array (see below)
 * Attack, Decay, and Release (shapes and durations)
-* Gain
+* Gain—Default .27
 
 Sustain is "built-in".  Notes will sustain as long as the key is pressed.
 

@@ -11,11 +11,11 @@ This is pure algorithmically generated synthesis—no samples, and no webAudio c
 ## Features
 
 The following parameters can be modulated on the interface:
-* Wave Type &#8767; (sine, saw, triangle, square)—Default Sine, 0 index of array
+* Wave Type **&#8767;** (sine, saw, triangle, square)—Default Sine, 0 index of array
 * Overtone Ratio &#981; Default 12 semitones or 1 octave
 * Overtone Deviation &#0963; Default 2 (arbitrary)
 * Overtone Mean Oscillation &#181; Default 0 (try 1.61)
-* The Overtone Mean LFO &#181; Default 0 = Log10(root frequency), see below
+* The Overtone Mean LFO &#181;fo Default 0 = Log10(root frequency), see below
 * The Number of overtones &#926; (polyphonics per voice) &#926; Default 3
 * Amplitude "warble"—Default 0 = no amplitude modulation
 * The Amplitude warble LFO—Default 0 = Log10(root frequency), see below

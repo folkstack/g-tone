@@ -11,7 +11,7 @@ This is pure algorithmically generated synthesis—no samples, and no webAudio c
 ## Features
 
 The following parameters can be modulated on the interface:
-* Wave Type **&#8767;** 
+### Wave Type **&#8767;** 
   * [sine, saw, triangle, square] Default Sine, 0 index of array
 * Overtone Ratio **&#981;**
   * Default 12 semitones or 1 octave

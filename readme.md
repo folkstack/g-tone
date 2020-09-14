@@ -4,23 +4,23 @@
 
 <img src=gtone.png width="420px" />
 
-G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. The number of overtones per voice is parameter &#926;, the more the glitchier.
+G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. The number of overtones per voice is parameter &#926;—the more the glitchier.
 
 This is pure algorithmically generated synthesis—no samples, and no webAudio components. The sound is 100% produced by hot javascript. The app works in the Chrome/Chromium browsers, internet connection not required.  Audio is 64bit HiFi Mono.
 
 ## Features
 
 The following parameters can be modulated on the interface:
-* Wave Type (sine, saw, triangle, square)—Default Sine, 0 index of array
-* Overtone Ratio—Default 12 semitones or 1 octave
-* Overtone Deviation—Default 2 (arbitrary)
-* Overtone Mean Oscillation—Default 0 (try 1.61)
-* The Overtone Mean LFO—Default 0 = Log10(root frequency), see below
-* The Number of overtones per note (polyphonics per voice)—Default 3
+* Wave Type &#8767; (sine, saw, triangle, square)—Default Sine, 0 index of array
+* Overtone Ratio &#981; Default 12 semitones or 1 octave
+* Overtone Deviation &#0963; Default 2 (arbitrary)
+* Overtone Mean Oscillation &#181; Default 0 (try 1.61)
+* The Overtone Mean LFO &#181; Default 0 = Log10(root frequency), see below
+* The Number of overtones &#926; (polyphonics per voice) &#926; Default 3
 * Amplitude "warble"—Default 0 = no amplitude modulation
 * The Amplitude warble LFO—Default 0 = Log10(root frequency), see below
 * Wavelength dependent feedback—Default .25
-* Window Filter Function—Default None, 0 index of array (see below)
+* Window Filter Function &#955; Default None, 0 index of array (see below)
 * Attack, Decay, and Release (shapes and durations)
 * Gain—Default .27
 

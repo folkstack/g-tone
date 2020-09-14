@@ -23,7 +23,7 @@ The following parameters can be modulated on the interface:
   * Default 0 = Log10(root frequency), see below
 * The Number of overtones (polyphonics per voice) **&#926;** 
   * Default 3
-* Amplitude "warble" **&#955;**
+* Amplitude "warble" **&#9775;**
   * Default 0 = no amplitude modulation
 * The Amplitude warble LFO **&#9775;hz**
   * Default 0 = Log10(root frequency), see below

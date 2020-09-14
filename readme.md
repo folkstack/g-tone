@@ -1,10 +1,10 @@
-# G-Tone N-Polyphonic Mod Synth for MIDI Keyboards
+# G-Tone n-Polyphonic Mod Synth for MIDI Keyboards
 
 [Demo](https://folkstack.github.io/g-tone/public/)
 
 <img src=gtone.png width="420px" />
 
-G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. 
+G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. The number of overtones per voice is parameter &#926, the more the glitchier.
 
 This is pure algorithmically generated synthesis—no samples, and no webAudio components. The sound is 100% produced by hot javascript. The app works in the Chrome/Chromium browsers, internet connection not required.  Audio is 64bit HiFi Mono.
 

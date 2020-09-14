@@ -13,7 +13,7 @@ module.exports = {
   //sustain:{name: null, type: 'dial', value: 120, step: .1, mag: 64},
   feedback:{name: '&#931', type: 'dial', value: .25, step: .01, max:.99, min:-.99},
   "amod":{name: '&#9775', type: 'dial', value: 0, step: .005, mag: 1, min: -1, max:1},
-  "rlfo":{name: '&#9775hz', type: 'dial', value: 0, step: .0005, mag: .1, min: 0, max:1},
+  "rlfo":{name: '&#9775hz', type: 'dial', value: 0, step: .0005, mag: .01, min: 0},
   "gain":{name: '&#937', type: 'dial', value: 0.27, step: .005, mag: 1, min: -1, max:1},
   attack:{name: null, type: 'eezy', value: [[0,0], [1/2,.1], [1,1]]},
   decay:{name: null, type: 'eezy', value: [[0,1], [1/2, 1/10], [1,4/10]]},

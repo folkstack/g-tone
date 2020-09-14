@@ -2,7 +2,7 @@
 
 [Demo](https://folkstack.github.io/g-tone/public/)
 
-<img src=gtone.png width="420px" />
+<img src=gtone.png width="720px" />
 
 G-Tone is designed for modulating overtones, based on Gaussian distributions, where the fundamental frequency is represented as the *mean*, and the overtones are discreet values along the deviation. The ratio of the overtones to the fundamental frequency is a mod parameter defined in half-tones on the equal tempered scale. The number of overtones per voice is parameter &#926;—the more the glitchier.
 
@@ -18,7 +18,7 @@ The following parameters can be modulated on the interface:
 #### Overtone Deviation **&#0963;** 
   * Default 2 (arbitrary)
 #### Overtone Mean Oscillation **&#181;** 
-  * Default 0 (try 1.61)
+  * Default 0 = none (try 1.61)
 #### Overtone Mean LFO **&#181;fo**
   * Default 0 = Log10(root frequency), see below
 #### Number of overtones (polyphonics per voice) **&#926;** 
@@ -34,7 +34,7 @@ The following parameters can be modulated on the interface:
 #### Attack, Decay, and Release Shapes 
   * Graph Displays
 #### Attack, Decay, and Release Durations **A&#916;**, **D&#916;**, **R&#916;**
-  * Defaults .03, .03, .09 (arbitrarily very short)
+  * Defaults in seconds: .03, .03, .09 
 #### Gain **&#937;**  
   * Default .27
 

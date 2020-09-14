@@ -11,29 +11,31 @@ This is pure algorithmically generated synthesis—no samples, and no webAudio c
 ## Features
 
 The following parameters can be modulated on the interface:
-### Wave Type **&#8767;** 
+#### Wave Type **&#8767;** 
   * [sine, saw, triangle, square] Default Sine, 0 index of array
-* Overtone Ratio **&#981;**
+### Overtone Ratio **&#981;**
   * Default 12 semitones or 1 octave
-* Overtone Deviation **&#0963;** 
+### Overtone Deviation **&#0963;** 
   * Default 2 (arbitrary)
-* Overtone Mean Oscillation **&#181;** 
+### Overtone Mean Oscillation **&#181;** 
   * Default 0 (try 1.61)
-* The Overtone Mean LFO **&#181;fo**
+### Overtone Mean LFO **&#181;fo**
   * Default 0 = Log10(root frequency), see below
-* The Number of overtones (polyphonics per voice) **&#926;** 
+### Number of overtones (polyphonics per voice) **&#926;** 
   * Default 3
-* Amplitude "warble" **&#9775;**
+### Amplitude "warble" **&#9775;**
   * Default 0 = no amplitude modulation
-* The Amplitude warble LFO **&#9775;hz**
+### Amplitude warble LFO **&#9775;hz**
   * Default 0 = Log10(root frequency), see below
-* Wavelength dependent feedback **&#931;**
+### Wavelength dependent feedback **&#931;**
   * Default .25
-* Window Filter Function **&#955;**
+### Window Filter Function **&#955;**
   * Default None, 0 index of array (see below)
-* Attack, Decay, and Release Shapes *graphs*
-* Attack, Decay, and Release Durations **A&#916;**, **D&#916;**, **R&#916;**
-* Gain **&#937;**  
+### Attack, Decay, and Release Shapes 
+  * Graph Displays
+### Attack, Decay, and Release Durations **A&#916;**, **D&#916;**, **R&#916;**
+  * Defaults .03, .03, .09 (arbitrarily very short)
+### Gain **&#937;**  
   * Default .27
 
 Sustain is "built-in".  Notes will sustain as long as the key is pressed.

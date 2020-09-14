@@ -11,11 +11,11 @@ The following parameters can be modulated on the interface:
 * Overtone Ratio—Default 12 semitones or 1 octave
 * Overtone Deviation—Default 2 (arbitrary)
 * Overtone Mean Oscillation—Default 0 (try 1.61)
-* The Overtone Mean LFO—Default 0 (see below)
+* The Overtone Mean LFO—Default 0 = Log10(root frequency), see below
 * The Number of overtones per note (polyphonics per voice)—Default 3
-* Amplitude "warble"—Default 0
-* The Amplitude warble LFO—Default 0 (see below)
-* Wavelength dependent feedback value—Default Arbitrary
+* Amplitude "warble"—Default 0 = no amplitude modulation
+* The Amplitude warble LFO—Default 0 = Log10(root frequency), see below
+* Wavelength dependent feedback—Default .25
 * Window Filter Function—Default None, 0 index of array (see below)
 * Attack, Decay, and Release (shapes and durations)
 * Gain—Default .27

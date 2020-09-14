@@ -2,7 +2,7 @@
 
 [Demo](https://folkstack.github.io/g-tone/public/)
 
-<img src=blob/master/gtone.png width="420px" />
+<img src=gtone.png width="420px" />
 
 This is a pure algorithmically generated synthesis—no samples, and no webAudio components. The sound is 100% produced by hot javascript. The app works in the Chrome/Chromium browsers, internet connection not required.  Audio is 64bit HiFi Mono.
 

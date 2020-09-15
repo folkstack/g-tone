@@ -10,7 +10,7 @@ To use offline, and own forever, buy the bundled app as a single HTML file.  Use
 
 Try the online [Demo](https://folkstack.github.io/g-tone/public/)
 
-<img src=gtone.png width="420px; float:left" />
+<img src=gtone.png width="420px" />
 
 ### Description
 

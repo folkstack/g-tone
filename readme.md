@@ -20,17 +20,17 @@ The following parameters can be modulated on the interface:
 #### Overtone Mean Oscillation **&#181;** 
   * Default 0 = none (try 1.61)
 #### Overtone Mean LFO **&#181;fo**
-  * Default 0 = Log10(root frequency), see below
+  * Default 0 = Log10(root frequency), see Notes below
 #### Number of overtones (polyphonics per voice) **&#926;** 
   * Default 3
 #### Amplitude "warble" **&#9775;**
   * Default 0 = no amplitude modulation
 #### Amplitude warble LFO **&#9775;hz**
-  * Default 0 = Log10(root frequency), see below
+  * Default 0 = Log10(root frequency), see Notes below
 #### Wavelength dependent feedback **&#931;**
   * Default .25
 #### Filter Function **&#955;**
-  * Default None, 0 index of array (see below)
+  * Default None, 0 index of array, see Notes below
 #### Attack, Decay, and Release Shapes 
   * Graph Displays
 #### Attack, Decay, and Release Durations **A&#916;**, **D&#916;**, **R&#916;**
@@ -38,6 +38,7 @@ The following parameters can be modulated on the interface:
 #### Gain **&#937;**  
   * Default .27
 
+### Notes
 Sustain is "built-in".  Notes will sustain as long as the key is pressed.
 
 The LFOs are a dependent on the fundamental frequency for each note.  More precisely, the LFO at zero is log10(fq), and can be modulated higher.

@@ -35,7 +35,7 @@ The following parameters can be modulated on the interface:
   * Graph Displays
 #### Attack, Decay, and Release Durations **A&#916;**, **D&#916;**, **R&#916;**
   * Defaults in seconds: .03, .03, .09 
-#### Gain **&#937;**  
+#### Master Gain **&#937;**  
   * Default .27
 
 ### Notes

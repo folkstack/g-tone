@@ -29,7 +29,7 @@ The following parameters can be modulated on the interface:
   * Default 0 = Log10(root frequency), see below
 #### Wavelength dependent feedback **&#931;**
   * Default .25
-#### Window Filter Function **&#955;**
+#### Filter Function **&#955;**
   * Default None, 0 index of array (see below)
 #### Attack, Decay, and Release Shapes 
   * Graph Displays
@@ -42,6 +42,6 @@ Sustain is "built-in".  Notes will sustain as long as the key is pressed.
 
 The LFOs are a dependent on the fundamental frequency for each note.  More precisely, the LFO at zero is log10(fq), and can be modulated higher.
 
-The Window Filter Functions are a "continous-time" hack of Window Functions (Hann, Hamming, etc).  See [window funcions](https://en.wikipedia.org/wiki/Window_function).
+The Filter Functions are a "continous-time" hack of Window Functions (Hann, Hamming, etc).  See [window funcions](https://en.wikipedia.org/wiki/Window_function).
 
 

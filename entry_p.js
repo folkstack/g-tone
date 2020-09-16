@@ -6,11 +6,11 @@ var h = require('hyperscript')
 var bus = require('page-bus')()
 var teoria = require('teoria')
 var store = require('store')
-var master = new AudioContext
+var master, sr// = new AudioContext
 var jsynth = require('../jsynth')
 var $ = require('../polysynth/cheatcode.js')
 Time = 0
-sr = master.sampleRate
+//sr = master.sampleRate
 ez = []
 
 tz = []
@@ -102,6 +102,8 @@ midi.getPortNames(function(e,d){
 })
 
 function init(){
+  master = new AudioContext
+  sr = master.sampleRate
   state = controls(ui.para, update).state
   function update (name, value, state) {
     if(name.slice(0,3) == 'iir'){

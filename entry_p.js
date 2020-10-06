@@ -91,14 +91,20 @@ midi.getPortNames(function(e,d){
   }
  else{
     //d.push('QWERTY KEYBOARD')
-
-    ui['midi'].appendChild(h('div', d.map(e => h('div', [h('input', {type: 'checkbox', id: e, value: e, onclick: function(){
-      store.set('midi', e)
+    if(d.length == 0){
       init()
-      play()
-      input(e)
-    }}), h('label',  e, {htmlFor: e})]))))
+      setTimeout(_ => window.alert('no MIDI input detected :^(', 333))
+    }
+    else{
+      ui['midi'].appendChild(h('div', d.map(e => h('div', [h('input', {type: 'checkbox', id: e, value: e, onclick: function(){
+        store.set('midi', e)
+        init()
+        play()
+        input(e)
+      }}), h('label',  e, {htmlFor: e})]))))
+    }
   }
+    
 })
 
 function init(){
@@ -126,7 +132,7 @@ function play (){
   Time = t
   return (ons.reduce((a, e) => a + e(t)*state.gain, 0)
      + off.reduce((a, e) => a + e(t)*state.gain, 0))
-  }, 256 * 8)
+  }, 256 * 2)
   synth.connect(master.destination)
 }
 

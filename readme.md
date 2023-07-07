@@ -1,11 +1,5 @@
 # G-Tone n-Polyphonic Mod Synth for MIDI Keyboards
 
-
-### BUY
-To use offline, and own forever, buy the bundled app as a single HTML file.  Use of the app requires no internet connection.  USB MIDI Keyboard required.
-
-[Buy App on Gumroad](https://gumroad.com/l/jNnWj)
-
 ### DEMO
 
 Try the online [Demo](https://folkstack.github.io/g-tone/public/)
